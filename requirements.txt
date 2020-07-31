@@ -6,3 +6,4 @@ gunicorn
 Jinja2
 Werkzeug
 ml2rt
+mod-wsgi
