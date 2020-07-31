@@ -6,4 +6,4 @@ release:
   command:
     - flask run -h 0.0.0.0 --port 80
 run:
-  webb: serve -l 80
+  webb: flask run -h 0.0.0.0 --port 80
