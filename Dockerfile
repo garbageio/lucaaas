@@ -4,7 +4,6 @@ RUN pip install redisai numpy flask flask-cors ml2rt
 RUN git clone https://github.com/chrisPiemonte/eaas.git
 ENV FLASK_APP=app.py
 WORKDIR /eaas
-EXPOSE 80
 EXPOSE 5000
 ENTRYPOINT [ "flask" ]
-CMD [ "run", "-h", "0.0.0.0", "--port", "80"]
+CMD [ "run", "-h", "0.0.0.0", "--port", "5000"]

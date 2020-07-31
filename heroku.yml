@@ -4,6 +4,6 @@ build:
 release:
   image: webb
   command:
-    - flask run -h 0.0.0.0 --port 80
+    - flask run -h 0.0.0.0 --port 5000
 run:
-  webb: flask run -h 0.0.0.0 --port 80
+  webb: flask run -h 0.0.0.0 --port 5000
