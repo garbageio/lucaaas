@@ -1,3 +1,7 @@
 build:
     docker:
       webb: Dockerfile
+release:
+  image: webb
+  command:
+    - flask run -h 0.0.0.0 --port 80
