@@ -7,8 +7,8 @@ import speech
 
 
 app = Flask(__name__)
-CORS(app)
 
+CORS(app)
 
 @app.route('/chat', methods=['POST'])
 def chat():
