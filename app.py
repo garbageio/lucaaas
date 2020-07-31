@@ -43,3 +43,7 @@ def ui_components(filepath):
 @app.route('/')
 def ui():
     return send_from_directory('static', 'index.html')
+
+
+if __name__ == '__main__':
+    app.run(host="localhost", port=80, debug=True)
