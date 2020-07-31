@@ -19,6 +19,7 @@ FROM python:3.7-stretch
 RUN apt-get update -y
 RUN apt-get install -y apache2-dev
 
+
 # Install python and pip
 # RUN apk add --no-cache --update python3 py3-pip bash
 ADD . /eaas/
