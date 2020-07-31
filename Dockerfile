@@ -1,9 +1,10 @@
 FROM python:3.7.2-stretch
 RUN apt-get update -y
-RUN pip install redisai numpy flask flask-cors ml2rt
+# RUN pip install redisai numpy flask flask-cors ml2rt
 RUN git clone https://github.com/chrisPiemonte/eaas.git
 ENV FLASK_APP=app.py
 WORKDIR /eaas
+RUN pip install -r requirements.txt
 # EXPOSE 5000
 # ENTRYPOINT [ "flask" ]
 
