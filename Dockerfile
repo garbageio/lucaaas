@@ -7,8 +7,6 @@ WORKDIR /eaas
 # EXPOSE 5000
 # ENTRYPOINT [ "flask" ]
 
-RUN adduser -D myuser
-USER myuser
 
 CMD gunicorn --bind 0.0.0.0:$PORT wsgi 
 # CMD [ "run", "-h", "0.0.0.0", "--port", "5000"]
