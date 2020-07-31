@@ -25,10 +25,9 @@ ADD . /eaas/
 WORKDIR /eaas
 
 # Install dependencies
-RUN pip3 install --no-cache-dir -q -r requirements.txt
+# RUN pip3 install --no-cache-dir -q -r requirements.txt
+RUN pip install -r requirements.txt
 
-RUN adduser -D myuser
-USER myuser
 
 # Run the app.  CMD is required to run on Heroku
 # $PORT is set by Heroku			
