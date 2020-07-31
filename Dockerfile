@@ -4,4 +4,4 @@ RUN pip install redisai numpy flask flask-cors ml2rt
 WORKDIR /app
 EXPOSE 5000
 ENTRYPOINT [ "flask" ]
-CMD [ "run", "-h", "0.0.0.0" ]
+CMD [ "run", "-h", "0.0.0.0", "--port", "80"]
