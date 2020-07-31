@@ -63,6 +63,7 @@ frase_interas = [
 ]
 
 
+
 def generate_tormentone():
     vez = np.random.choice(vezs)
     esclamazione = np.random.choice(esclamaziones)
