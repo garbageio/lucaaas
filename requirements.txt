@@ -1,9 +1,9 @@
 Flask==1.0.3
 Flask-Cors==3.0.8
 numpy==1.17.1
-python-dotenv
+
 gunicorn
 Jinja2
 Werkzeug
-ml2rt
+# ml2rt
 # mod-wsgi
