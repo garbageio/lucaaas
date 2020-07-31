@@ -1,9 +1,9 @@
 build:
     docker:
-      webb: Dockerfile
+      web: Dockerfile
 release:
-  image: webb
+  image: web
   command:
     - flask run -h 0.0.0.0 --port 5000
 run:
-  webb: flask run -h 0.0.0.0 --port 5000
+  web: flask run -h 0.0.0.0 --port 5000
