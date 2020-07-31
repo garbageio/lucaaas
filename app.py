@@ -10,16 +10,18 @@ app = Flask(__name__)
 
 CORS(app)
 
-@app.route('/chat', methods=['POST'])
+# @app.route('/chat', methods=['POST'])
+@app.route('/chat')
 def chat():
-    req_data = request.get_json()
-    message = utils.normalize_string((req_data['message']))
+    # req_data = request.get_json()
+    # message = utils.normalize_string((req_data['message']))
     try:
-        indices = utils.get_batched_indices(message)
+        # indices = utils.get_batched_indices(message)
+        pass
     except KeyError:
         reply = "I did not understand your language!!, check the spelling perhaps"
     else:
-        numpy_array = utils.list2numpy(indices)
+        # numpy_array = utils.list2numpy(indices)
         reply = speech.generate_sentence()
 
     resp = jsonify(reply=reply)
