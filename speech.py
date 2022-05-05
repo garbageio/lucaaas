@@ -31,6 +31,8 @@ pseudobestemmias = [
 ]
 
 frase_interas = [
+    'TELOGGIUROO',
+    'Marco Michelutto',
     'NON CI CREDO MAI !',
     'ti dico',
     'MUOIO',
