@@ -3,64 +3,21 @@ import numpy as  np
 
 vezs = [
     'vez',
-    'vecchio',
-    'vecchius',
-    'vekkyo',
-    'brode',
-    'zi',
-    'brody',
 ]
 
 esclamaziones = [
-    'devastante',
-    'pazzesko',
-    'speciale',
-    'top',
-    'parkour',
-    'spettacolo',
-    'esagerato'
+    'esagerato',
 ]
 
 pseudobestemmias = [
-    'porcodiaz',
     'zio can',
-    'zio povero',
-    'urco can',
-    'zio bestia',
-    'porcoddue'
 ]
 
 frase_interas = [
-    'TELOGGIUROO',
-    'Marco Michelutto',
-    'NON CI CREDO MAI !',
-    'ti dico',
-    'MUOIO',
-    'STO MALISSIMO',
-    'zi',
-    'non voglio snitch nel gang',
-    'CIAVATTE',
-    'piango vecchio',
-    'no dai',
-    'recommender system',
-    'mi sbrego',
-    'FACCIO UN CASINO',
-    'MAIL A BELEN',
-    'lo faccio',
-    'si o no ?!',
-    'VOLO DIRETTO VEKKYO DECOLLO',
-    'GIUDICAMI',
-    'cv in comunicazione',
-    'coooos',
-    'UGUALE',
-    'top nic pastic',
-    'PATENA',
-    'sono in allianz',
+    'mmmmm vabbè',
+    'quota parte',
     '🤣',
-    'GANG',
-    'TE DICO FERMETE',
-    'se semo presi a bira',
-    'sei un drago',
+    'ETRUSCHI',
     '❤️'
 ]
 
