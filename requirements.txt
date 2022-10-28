@@ -3,7 +3,7 @@ Flask-Cors==3.0.8
 numpy==1.21.6
 
 gunicorn
-Jinja2
+Jinja2==2.11.3
 Werkzeug
 # ml2rt
 # mod-wsgi
