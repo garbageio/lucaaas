@@ -1,6 +1,6 @@
 Flask==1.0.3
 Flask-Cors==3.0.8
-numpy==1.17.1
+numpy
 
 gunicorn
 Jinja2
