@@ -1,2 +1,2 @@
-# Eugenio as a Service
-An example that showcases the benefit of running Eugenio inside a service.
+# Luca as a Service
+An example that showcases the benefit of running Luca inside a service.
