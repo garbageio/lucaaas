@@ -2,9 +2,9 @@
 #  RUN apt-get update -y
 #  RUN apt-get install -y apache2-dev
 # RUN pip install redisai numpy flask flask-cors ml2rt
-# RUN git clone https://github.com/chrisPiemonte/eaas.git
-#  ADD . /eaas/
-#  WORKDIR /eaas
+# RUN git clone https://github.com/chrisPiemonte/lucaaas.git
+#  ADD . /lucaaas/
+#  WORKDIR /lucaaas
 #  RUN pip install -r requirements.txt
 # EXPOSE 5000
 # ENTRYPOINT [ "flask" ]
@@ -22,8 +22,8 @@ RUN apt-get install -y apache2-dev
 
 # Install python and pip
 # RUN apk add --no-cache --update python3 py3-pip bash
-ADD . /eaas/
-WORKDIR /eaas
+ADD . /lucaaas/
+WORKDIR /lucaaas
 
 # Install dependencies
 # RUN pip3 install --no-cache-dir -q -r requirements.txt
